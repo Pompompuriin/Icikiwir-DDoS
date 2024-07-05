@@ -13,7 +13,7 @@ print(result)
 rkt = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(51200)
 
-banner = pyfiglet.figlet_format("Icikiwir DDoS", font = "bulbhead")
+banner = pyfiglet.figlet_format("Icikiwir DDoS", font = "standard")
 print (banner)
 
 print
